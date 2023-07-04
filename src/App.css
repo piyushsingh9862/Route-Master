@@ -1,0 +1,288 @@
+html{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body{
+  max-width: 100%;
+  justify-content: center;
+}
+
+
+.mapboxgl-map{
+  border-radius: 25px;
+  height: 42vw;
+  border: 0.1px solid #212529;
+
+}
+
+.app{
+  height: fit-content;
+  text-align: center;
+  width: 67.5vw;
+  text-align: -moz-center;
+}
+
+
+.origin-marker{
+  background-image: url("./assets/origin-marker.png");
+  width: 20px;
+  height: 22px;
+}
+
+.destination-marker{
+  background-image: url("./assets/map-pin-solid.svg");
+  width: 14px;
+  height: 22px;
+}
+
+.tt-search-box-input-container{
+  width: 55vw;
+}
+
+.map-container{
+  margin-left: 1.5px;
+}
+
+.map{
+  margin: 1.5vw;
+  width: 67.5vw;
+  height: 42.6vw;
+}
+
+
+.jumbotron {
+  text-align: center;
+  border-radius: 10px;
+  margin: 3vw;
+  padding: 0;
+  width: 94%;
+  /* border: 0.5px solid #212529; */
+  background-color: #e9ecef;
+}
+
+
+
+.about{
+  margin: 2vw;
+  margin-bottom: 0;
+}
+
+.linkButton{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 50px;
+  height: 44px;
+}
+
+.rect{
+  margin: 5vw;
+  padding: 5vw;
+}
+
+
+.container{
+  margin-left: 0;
+  max-width: 90%;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; 
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529; 
+}
+
+.list{
+  width: fit-content;
+}
+
+.col{
+  padding: 0;
+  width: fit-content;
+  margin-left: 1vw;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.details{
+  margin-right: 1.5vw;
+  margin-left: 1.5vw;
+  margin-top: 1.7vw;
+  border-radius: 25px;
+  height: 42vw;
+  width: -moz-available;
+  border: 0.1px solid #212529;
+  background-color: #c8c9ca;
+}
+
+#detailsHeading{
+  text-align: center;
+  margin: 2vw;
+  margin-top: 7vw;
+}
+
+.detailsBox{
+  margin-top: 4vw;
+}
+
+.details-para{
+  text-align: center;
+  font-size: 120%;
+  margin: 0;
+  justify-content: center;
+  padding: 0.5vw;
+}
+
+p.green{
+  color: darkgreen;
+  background: none;
+}
+
+p.red {
+  color:orangered;
+  background: none;
+}
+
+p.yellow{
+  color: yellow;
+  background: none;
+}
+
+.list-div{
+  display: flex;
+  justify-content: center;
+}
+
+#selected-list-label{
+  padding-top: 0.4vw;
+  margin-right: 0.8vw;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.mapShow{
+  margin: 0;
+}
+
+
+
+/* Carousel base class */ 
+.carousel {
+  margin-bottom: 4rem;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+.marketing{
+  margin: 3vw;
+  margin-top: 4vw;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+hr{
+  width: 80%;
+  height: 5px;
+  /* margin-bottom: 3vw; */
+}
+
+/* Featurettes
+------------------------- */
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -.05rem;
+}
+
+.img{
+  width: 250px;
+  margin-top: 5vw;
+}
+ 
+.name{
+  font-size: 3vw;
+  font-weight: bold;
+  margin-top: 1vw;
+}
+
+.contact{
+  font-size: 1vw;
+  margin-top: 1vw;
+  text-align: center;
+}
+
+.made-using{
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 2vw;
+  padding: 0;
+  background-color: #e9ecef;
+}
+
+.mu{
+  justify-content: center;
+}
+
+.abt-row{
+  width: 90%;
+}
+
+#made-using-title{
+  text-align: center;
+  padding: 1vw;
+}
+
+
+#using{
+  margin-top: 2vw;
+}
+
+#discription{
+  padding: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.fs-3{
+  font-size: 12px;
+}
