@@ -4,7 +4,7 @@ It is a route visualizer for delivery of item on multiple locations. It shows tw
 
 
 
-<img src="https://github.com/piyushsingh9862/Route-Master/assets/84294976/d17397c8-9466-4d3e-9e36-1195c4344bcc" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+<img src="https://github.com/piyushsingh9862/Route-Master/assets/84294976/d17397c8-9466-4d3e-9e36-1195c4344bcc" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png"/>
 
 
 
